@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 $(".question-wrapper").click( function () {
   var container = $(this).parents(".accordion");
   var answer = container.find(".answer-wrapper");
